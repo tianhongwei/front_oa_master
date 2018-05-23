@@ -1,3 +1,5 @@
+基于node.js、vue.js、mongoose开发的一套oa办公系统项目demo。------------正在不断完善功能中------------
+
 
 备注：
 git clone 项目地址   克隆git远程仓库
