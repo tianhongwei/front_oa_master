@@ -37,23 +37,28 @@
   },
   methods: {
     login: function () {
-      // GET /someUrl
-      this.$http({
-        method: 'GET',
-        url: 'http://59.49.17.194:1111/WebService1.asmx/GetWorkType'
-      }).then(function (response) {
-        this.username = response.data
-      }, function (response) {
+      // post /someUrl
+      this.$http.post('https://bird.ioliu.cn/v1/?url=http://59.49.17.194:1111/WebService1.asmx/Login',
+        {
+          cLoginName: 'thw',
+          cLoginPassword: 'thw'
+        }).then(function (res) {
+        this.username = res.status
+        alert(JSON.stringify(res.body))
+      }, function (res) {
         this.username = '------------点错了'
+        alert(JSON.stringify(res))
       })
-      // this.$http.get('http://59.49.17.194:1111/WebService1.asmx/GetWorkType').then(response => {
-      //   console.log(response.data)
-      //   this.username = '点按钮了'
-      //   // get body data
-      //   // this.someData = response.body;
-      // }, response => {
-      //   console.log('error')
-      //   this.username = '..........点按钮了'
+      // GET /someUrl
+      // this.$http({
+      //   method: 'GET',
+      //   url: 'https://bird.ioliu.cn/v1/?url=http://59.49.17.194:1111/WebService1.asmx/GetWorkType'
+      // }).then(function (response) {
+      //   this.username = '------------点错了'
+      //   alert(JSON.stringify(response))
+      // }, function (response) {
+      //   alert(JSON.stringify(response))
+      //   this.username = 'res:111'
       // })
     },
     jzmm: function () {

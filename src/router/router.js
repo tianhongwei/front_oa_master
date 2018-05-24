@@ -7,6 +7,9 @@ import Login from '../pages/login'
 Vue.use(Router)
 Vue.use(VueResource)
 
+Vue.http.options.emulateHTTP = true
+Vue.http.options.emulateJSON = true
+
 export default new Router({
   routes: [
     {
