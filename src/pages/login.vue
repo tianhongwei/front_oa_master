@@ -37,17 +37,36 @@
   },
   methods: {
     login: function () {
+      // GET /someUrl
+      // this.$http({
+      //   method: 'GET',
+      //   url: 'https://bird.ioliu.cn/v1/?url=http://192.168.1.235:8081/user'
+      // }).then(function (response) {
+      //   this.username = '------------点错了'
+      //   alert(JSON.stringify(response))
+      // }, function (response) {
+      //   alert(JSON.stringify(response))
+      //   this.username = 'res:111'
+      // })
       // post /someUrl
       this.$http.post('https://bird.ioliu.cn/v1/?url=http://59.49.17.194:1111/WebService1.asmx/Login',
         {
-          cLoginName: 'thw',
-          cLoginPassword: 'thw'
+          cLoginName: this.username,
+          cLoginPassword: this.password
         }).then(function (res) {
-        this.username = res.status
-        alert(JSON.stringify(res.body))
+        // alert(JSON.stringify(res))
+        // alert(JSON.stringify(res.body))
+        var data = res.body
+        // alert(data.Success)
+        // alert(JSON.stringify(data.Data))
+        if (data.Success === true) {
+          // alert('登录成功!')
+          alert('登录成功！用户ID：' + data.Data.noDictUserInfo)
+        } else {
+          alert(data.Msg)
+        }
       }, function (res) {
-        this.username = '------------点错了'
-        alert(JSON.stringify(res))
+        alert('网络超时！')
       })
       // GET /someUrl
       // this.$http({
