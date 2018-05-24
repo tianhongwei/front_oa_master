@@ -32,42 +32,60 @@
     return {
       username: '',
       password: '',
-      jzmmState: 0// 0未选择,1选择
+      jzmmState: 0, // 0未选择,1选择
+      user: ''
     }
   },
   methods: {
     login: function () {
       // GET /someUrl
-      // this.$http({
-      //   method: 'GET',
-      //   url: 'https://bird.ioliu.cn/v1/?url=http://192.168.1.235:8081/user'
-      // }).then(function (response) {
-      //   this.username = '------------点错了'
-      //   alert(JSON.stringify(response))
-      // }, function (response) {
-      //   alert(JSON.stringify(response))
-      //   this.username = 'res:111'
-      // })
-      // post /someUrl
-      this.$http.post('https://bird.ioliu.cn/v1/?url=http://59.49.17.194:1111/WebService1.asmx/Login',
-        {
-          cLoginName: this.username,
-          cLoginPassword: this.password
-        }).then(function (res) {
-        // alert(JSON.stringify(res))
+      if (this.username === '' || this.password === '') {
+        alert('用户名或密码不能为空！')
+        return
+      }
+      this.$http({
+        method: 'GET',
+        url: '/static/user.json'
+      }).then(function (res) {
         // alert(JSON.stringify(res.body))
         var data = res.body
-        // alert(data.Success)
-        // alert(JSON.stringify(data.Data))
-        if (data.Success === true) {
-          // alert('登录成功!')
-          alert('登录成功！用户ID：' + data.Data.noDictUserInfo)
-        } else {
-          alert(data.Msg)
+        // alert(this.username + ',' + this.password)
+        for (var i = 0; i < data.length; i++) {
+          var item = data[i]
+          // alert(JSON.stringify(item))
+          if (item.userName === this.username && item.password === this.password) { // 验证账号
+            this.user = item
+            break
+          }
         }
-      }, function (res) {
+        if (this.user === '') {
+          alert('登录失败！密码不正确')
+        } else {
+          alert('登录成功！用户ID：' + this.user.userId)
+        }
+      }, function (response) {
         alert('网络超时！')
       })
+      // post /someUrl
+      // this.$http.post('https://bird.ioliu.cn/v1/?url=http://59.49.17.194:1111/WebService1.asmx/Login',
+      //   {
+      //     cLoginName: this.username,
+      //     cLoginPassword: this.password
+      //   }).then(function (res) {
+      //   // alert(JSON.stringify(res))
+      //   // alert(JSON.stringify(res.body))
+      //   var data = res.body
+      //   // alert(data.Success)
+      //   // alert(JSON.stringify(data.Data))
+      //   if (data.Success === true) {
+      //     // alert('登录成功!')
+      //     alert('登录成功！用户ID：' + data.Data.noDictUserInfo)
+      //   } else {
+      //     alert(data.Msg)
+      //   }
+      // }, function (res) {
+      //   alert('网络超时！')
+      // })
       // GET /someUrl
       // this.$http({
       //   method: 'GET',
