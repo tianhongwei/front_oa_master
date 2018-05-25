@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import VueResource from 'vue-resource'
 import Hello from '../components/HelloWorld'
 import Login from '../pages/login'
+import Navigation from '../pages/navigation'
 import Home from '../pages/home'
 
 Vue.use(Router)
@@ -19,14 +20,21 @@ export default new Router({
       component: Login
     },
     {
-      path: '/Home/:noPermitInRole',
-      name: 'Home',
-      component: Home
-    },
-    {
-      path: '/Hello',
-      name: 'Hello',
-      component: Hello
+      path: '/Navigation/:noPermitInRole',
+      name: 'Navigation',
+      component: Navigation,
+      children: [
+        {
+          path: 'Home/:noPermitInRole',
+          name: 'Home',
+          component: Home
+        },
+        {
+          path: 'Hello',
+          name: 'Hello',
+          component: Hello
+        }
+      ]
     }
   ]
 })

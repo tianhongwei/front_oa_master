@@ -61,8 +61,10 @@
         if (this.user === '') {
           alert('登录失败！密码不正确')
         } else {
-          alert('登录成功！用户ID：' + this.user.userId)
-          var nextPath = '/Home/' + this.user.noPermitInRole
+          // alert('登录成功！用户ID：' + this.user.userId)
+          // var nextPath = '/Navigation/' + this.user.noPermitInRole
+          // this.$router.push({path: nextPath})
+          var nextPath = '/Navigation/' + this.user.noPermitInRole + '/Home/' + this.user.noPermitInRole
           this.$router.push({path: nextPath})
         }
       }, function (response) {
