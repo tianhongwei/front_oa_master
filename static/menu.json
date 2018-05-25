@@ -1,0 +1,189 @@
+[
+  {
+    "dictPhoneSecondMenus": [
+      {
+        "noPhoneSecondMenu": 7,
+        "noPhoneFirstMenu": 1,
+        "cNameSSF": "客户管理",
+        "cGoToActiivy": "com.integration.customer.activity.CustomerManagementListActivity",
+        "cGoToHtml": "ClientMessage/Home_Clients.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/khgl.png"
+      },
+      {
+        "noPhoneSecondMenu": 12,
+        "noPhoneFirstMenu": 1,
+        "cNameSSF": "同行业信息",
+        "cGoToActiivy": "com.integration.customer.activity.SameIndustryListActivity",
+        "cGoToHtml": "SameTrade/Home_SameTrade_Msg.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/thyxx.png"
+      },
+      {
+        "noPhoneSecondMenu": 13,
+        "noPhoneFirstMenu": 1,
+        "cNameSSF": "同行业动态",
+        "cGoToActiivy": "com.integration.customer.activity.SameIndustryDynamicActivity",
+        "cGoToHtml": "",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/thydt.png"
+      }
+    ],
+    "noPhoneFirstMenu": 1,
+    "cNameFSF": "客户",
+    "cGoToActiivy": "com.integration.menu.activity.CustomerMenuActivity",
+    "cGoToHtml": "../html/clientManage/Home_Client.html",
+    "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/kh.png",
+    "iLockUser": false,
+    "iLockDept": false,
+    "iIsExamine": "false"
+  },
+  {
+    "dictPhoneSecondMenus": [
+      {
+        "noPhoneSecondMenu": 1,
+        "noPhoneFirstMenu": 2,
+        "cNameSSF": "工作计划",
+        "cGoToActiivy": "com.integration.work.activity.WorkPlanActivity",
+        "cGoToHtml": "workPlan/Home_Plan.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/workplan.png"
+      },
+      {
+        "noPhoneSecondMenu": 3,
+        "noPhoneFirstMenu": 2,
+        "cNameSSF": "工作任务",
+        "cGoToActiivy": "com.integration.work.activity.WorkTaskActivity",
+        "cGoToHtml": "workTask/Home_Task.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/worktask.png"
+      },
+      {
+        "noPhoneSecondMenu": 4,
+        "noPhoneFirstMenu": 2,
+        "cNameSSF": "临时任务",
+        "cGoToActiivy": "com.integration.work.activity.TemporaryTaskActivity",
+        "cGoToHtml": "temporaryTask/Home_TemporaryTask.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/temptask.png"
+      },
+      {
+        "noPhoneSecondMenu": 5,
+        "noPhoneFirstMenu": 2,
+        "cNameSSF": "工作转办",
+        "cGoToActiivy": "com.integration.work.activity.TaskTransactActivity",
+        "cGoToHtml": "zhuanbanWork/Home_ZhuanBanWork.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/gzzb.png"
+      },
+      {
+        "noPhoneSecondMenu": 31,
+        "noPhoneFirstMenu": 2,
+        "cNameSSF": "工作请示",
+        "cGoToActiivy": "com.integration.office.activity.WorkInstructionsActivity",
+        "cGoToHtml": "qingshiWork/Home_Qingshi.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/gzqs.png"
+      }
+    ],
+    "noPhoneFirstMenu": 2,
+    "cNameFSF": "工作",
+    "cGoToActiivy": "com.integration.menu.activity.WorkMenuActivity",
+    "cGoToHtml": "../html/workManage/Home_Work.html",
+    "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/gz.png",
+    "iLockUser": true,
+    "iLockDept": true,
+    "iIsExamine": "false"
+  },
+  {
+    "dictPhoneSecondMenus": [],
+    "noPhoneFirstMenu": 3,
+    "cNameFSF": "考勤",
+    "cGoToActiivy": "com.integration.menu.activity.AttendanceMenuActivity",
+    "cGoToHtml": "../html/checkingInManage/Home_Checkingin.html",
+    "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/kq.png",
+    "iLockUser": true,
+    "iLockDept": true,
+    "iIsExamine": "true"
+  },
+  {
+    "dictPhoneSecondMenus": [
+      {
+        "noPhoneSecondMenu": 27,
+        "noPhoneFirstMenu": 8,
+        "cNameSSF": "出差",
+        "cGoToActiivy": "com.integration.office.activity.EvectionActivity",
+        "cGoToHtml": "chuchaiManage/Home_ChuchaiMsg.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/cc.png"
+      },
+      {
+        "noPhoneSecondMenu": 32,
+        "noPhoneFirstMenu": 8,
+        "cNameSSF": "请假",
+        "cGoToActiivy": "com.integration.office.activity.AskForLeaveActivity",
+        "cGoToHtml": "qingjiaManage/Home_QingjiaMsg.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/qj.png"
+      },
+      {
+        "noPhoneSecondMenu": 29,
+        "noPhoneFirstMenu": 8,
+        "cNameSSF": "加班",
+        "cGoToActiivy": "com.integration.office.activity.WorkOvertimeActivity",
+        "cGoToHtml": "jiabanManage/Home_JiaBanMsg.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/jb.png"
+      },
+      {
+        "noPhoneSecondMenu": 30,
+        "noPhoneFirstMenu": 8,
+        "cNameSSF": "未打卡",
+        "cGoToActiivy": "com.integration.office.activity.PunchCardActivity",
+        "cGoToHtml": "weidakaManage/Home_WeidakaMsg.html",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/wdk.png"
+      }
+    ],
+    "noPhoneFirstMenu": 8,
+    "cNameFSF": "流程",
+    "cGoToActiivy": "com.integration.menu.activity.ProcessMenuActivity",
+    "cGoToHtml": "../html/flowManage/Home_Flow.html",
+    "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/process.png",
+    "iLockUser": false,
+    "iLockDept": false,
+    "iIsExamine": "false"
+  },
+  {
+    "dictPhoneSecondMenus": [],
+    "noPhoneFirstMenu": 5,
+    "cNameFSF": "周报",
+    "cGoToActiivy": "com.integration.work.activity.WeekSummarizeActivity",
+    "cGoToHtml": "../html/weekManage/Home_Week.html",
+    "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/zb.png",
+    "iLockUser": true,
+    "iLockDept": true,
+    "iIsExamine": "false"
+  },
+  {
+    "dictPhoneSecondMenus": [],
+    "noPhoneFirstMenu": 10,
+    "cNameFSF": "日报",
+    "cGoToActiivy": "com.integration.work.activity.DaySummarizeActivity",
+    "cGoToHtml": "../html/dailyManage/Home_Daily.html",
+    "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/ribao.png",
+    "iLockUser": false,
+    "iLockDept": false,
+    "iIsExamine": "false"
+  },
+  {
+    "dictPhoneSecondMenus": [],
+    "noPhoneFirstMenu": 13,
+    "cNameFSF": "外出签到",
+    "cGoToActiivy": "com.integration.customer.activity.CustomerVisitActivity",
+    "cGoToHtml": "../html/outManage/Add_OutMsg.html",
+    "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/sign.png",
+    "iLockUser": false,
+    "iLockDept": false,
+    "iIsExamine": "false"
+  },
+  {
+    "dictPhoneSecondMenus": [],
+    "noPhoneFirstMenu": 14,
+    "cNameFSF": "外出总结",
+    "cGoToActiivy": "com.integration.customer.activity.CustomerVisitRecordActivity",
+    "cGoToHtml": "../html/outManage/Home_OutMsg.html",
+    "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/khbf.png",
+    "iLockUser": false,
+    "iLockDept": false,
+    "iIsExamine": "false"
+  }
+]

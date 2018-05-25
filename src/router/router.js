@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import VueResource from 'vue-resource'
 import Hello from '../components/HelloWorld'
 import Login from '../pages/login'
+import Home from '../pages/home'
 
 Vue.use(Router)
 Vue.use(VueResource)
@@ -18,7 +19,12 @@ export default new Router({
       component: Login
     },
     {
-      path: '/',
+      path: '/Home/:noPermitInRole',
+      name: 'Home',
+      component: Home
+    },
+    {
+      path: '/Hello',
       name: 'Hello',
       component: Hello
     }

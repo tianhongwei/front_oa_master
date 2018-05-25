@@ -1,0 +1,77 @@
+[
+  {
+    "row": 1,
+    "data": [
+      {
+        "noPhoneFirstMenu": 1,
+        "cNameFSF": "客户",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/kh.png"
+      },
+      {
+        "noPhoneFirstMenu": 2,
+        "cNameFSF": "工作",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/gz.png"
+      },
+      {
+        "noPhoneFirstMenu": 3,
+        "cNameFSF": "考勤",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/kq.png"
+      },
+      {
+        "noPhoneFirstMenu": 4,
+        "cNameFSF": "流程",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/process.png"
+      }
+    ]
+  },
+  {
+    "row": 2,
+    "data": [
+      {
+        "noPhoneFirstMenu": 5,
+        "cNameFSF": "工作审批",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/74b3ae1a-da8c-4737-a446-5bcdff2b0fed.png"
+      },
+      {
+        "noPhoneFirstMenu": 6,
+        "cNameFSF": "周报",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/zb.png"
+      },
+      {
+        "noPhoneFirstMenu": 7,
+        "cNameFSF": "日报",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/ribao.png"
+      },
+      {
+        "noPhoneFirstMenu": 8,
+        "cNameFSF": "报销审批",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/bx.png"
+      }
+    ]
+  },
+  {
+    "row": 3,
+    "data": [
+      {
+        "noPhoneFirstMenu": 9,
+        "cNameFSF": "采购审批",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/cg.png"
+      },
+      {
+        "noPhoneFirstMenu": 10,
+        "cNameFSF": "外出签到",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/sign.png"
+      },
+      {
+        "noPhoneFirstMenu": 11,
+        "cNameFSF": "外出总结",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/khbf.png"
+      },
+      {
+        "noPhoneFirstMenu": 12,
+        "cNameFSF": "后续功能",
+        "cIcon": "http://59.49.17.194:1112/SysManage/PhoneMenuImg/dd.png"
+      }
+    ]
+  }
+]

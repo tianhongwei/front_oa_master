@@ -62,6 +62,8 @@
           alert('登录失败！密码不正确')
         } else {
           alert('登录成功！用户ID：' + this.user.userId)
+          var nextPath = '/Home/' + this.user.noPermitInRole
+          this.$router.push({path: nextPath})
         }
       }, function (response) {
         alert('网络超时！')

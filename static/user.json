@@ -1,47 +1,52 @@
 [
-    {
-        "_id": "5b042ddf6a5c941eb8ce5a86",
-        "userId": "51",
-        "userName": "dxy",
-        "password": "dxy",
-        "realName": "邓晓宇",
-        "cPhoto": "",
-        "__v": 0
-    },
-    {
-        "_id": "5b0433bdc24c0d2178ae7998",
-        "userId": "52",
-        "userName": "thw",
-        "password": "thw",
-        "realName": "田红玮",
-        "cPhoto": "",
-        "__v": 0
-    },
-    {
-        "_id": "5b04d961138b4924fc0d95e0",
-        "userId": "50",
-        "userName": "zs",
-        "password": "zs",
-        "realName": "张三",
-        "cPhoto": "",
-        "__v": 0
-    },
-    {
-        "_id": "5b04d978138b4924fc0d95e1",
-        "userId": "49",
-        "userName": "ls",
-        "password": "ls",
-        "realName": "李四",
-        "cPhoto": "",
-        "__v": 0
-    },
-    {
-        "_id": "5b04d98a138b4924fc0d95e2",
-        "userId": "48",
-        "userName": "ww",
-        "password": "ww",
-        "realName": "王五",
-        "cPhoto": "",
-        "__v": 0
-    }
+  {
+    "_id": "5b042ddf6a5c941eb8ce5a86",
+    "userId": "51",
+    "userName": "dxy",
+    "password": "dxy",
+    "realName": "邓晓宇",
+    "cPhoto": "",
+    "__v": 0,
+    "noPermitInRole": 8
+  },
+  {
+    "_id": "5b0433bdc24c0d2178ae7998",
+    "userId": "52",
+    "userName": "thw",
+    "password": "thw",
+    "realName": "田红玮",
+    "cPhoto": "",
+    "__v": 0,
+    "noPermitInRole": 15
+  },
+  {
+    "_id": "5b04d961138b4924fc0d95e0",
+    "userId": "50",
+    "userName": "zs",
+    "password": "zs",
+    "realName": "张三",
+    "cPhoto": "",
+    "__v": 0,
+    "noPermitInRole": 8
+  },
+  {
+    "_id": "5b04d978138b4924fc0d95e1",
+    "userId": "49",
+    "userName": "ls",
+    "password": "ls",
+    "realName": "李四",
+    "cPhoto": "",
+    "__v": 0,
+    "noPermitInRole": 8
+  },
+  {
+    "_id": "5b04d98a138b4924fc0d95e2",
+    "userId": "48",
+    "userName": "ww",
+    "password": "ww",
+    "realName": "王五",
+    "cPhoto": "",
+    "__v": 0,
+    "noPermitInRole": 8
+  }
 ]
