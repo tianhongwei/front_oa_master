@@ -18,15 +18,15 @@
               </router-link>
           </div>
           <div class="item">
-            <router-link :to="'/Navigation/' + noPermitInRole + '/Hello'">
+            <router-link :to="'/Navigation/' + noPermitInRole + '/Map'">
             <img src="../assets/txl.png"><br />
-            <span>通讯录</span>
+            <span>地图</span>
             </router-link>
           </div>
           <div class="item">
-            <router-link :to="'/Navigation/' + noPermitInRole + '/Hello'">
+            <router-link :to="'/Navigation/' + noPermitInRole + '/OrderList'">
             <img src="../assets/wd.png"><br />
-            <span>我</span>
+            <span>订单</span>
             </router-link>
           </div>
       </div>
