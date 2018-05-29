@@ -8,6 +8,7 @@ import Navigation from '../pages/navigation'
 import Home from '../pages/home'
 import OrderList from '../pages/orderList'
 import OrderDetail from '../pages/orderDetail'
+import OrderMap from '../pages/orderMap'
 
 Vue.use(Router)
 Vue.use(VueResource)
@@ -51,6 +52,11 @@ export default new Router({
           path: 'OrderDetail',
           name: 'OrderDetail',
           component: OrderDetail
+        },
+        {
+          path: 'OrderMap',
+          name: 'OrderMap',
+          component: OrderMap
         }
       ]
     }

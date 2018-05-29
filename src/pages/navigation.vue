@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="padding-bottom:55px;">
     <div id="nav" style="overflow-y: auto">
       <router-view/>
     </div>
@@ -49,9 +49,13 @@
 
 <style scoped>
   .bottom{
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    height:55px;
+    background-color:#F8F8F8;
+    z-index:9999;
   }
   .parent{
     width: 100%;
