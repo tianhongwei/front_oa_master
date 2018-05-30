@@ -45,7 +45,7 @@
       }
       this.$http({
         method: 'GET',
-        url: '/static/user.json'
+        url: './static/user.json'
       }).then(function (res) {
         // alert(JSON.stringify(res.body))
         var data = res.body

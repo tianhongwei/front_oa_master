@@ -69,7 +69,7 @@
     getOrderList: function () {
       this.$http({
         method: 'GET',
-        url: '/static/orderList.json'
+        url: './static/orderList.json'
       }).then(function (res) {
         this.orders = res.body
       })

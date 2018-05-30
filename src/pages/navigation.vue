@@ -45,10 +45,10 @@
   name: 'navigation.vue',
   data () {
     return {
-      navLists: [{text: '首页', path: 'Home', img: '../static/images/yx.png', img_active: '../static/images/yx-active.png'},
-        {text: '公告', path: 'Hello', img: '../static/images/gg.png', img_active: '../static/images/gg-active.png'},
-        {text: '地图', path: 'Map', img: '../static/images/txl.png', img_active: '../static/images/txl-active.png'},
-        {text: '订单', path: 'OrderList', img: '../static/images/wd.png', img_active: '../static/images/wd-active.png'}
+      navLists: [{text: '首页', path: 'Home', img: './static/images/yx.png', img_active: './static/images/yx-active.png'},
+        {text: '公告', path: 'Hello', img: './static/images/gg.png', img_active: './static/images/gg-active.png'},
+        {text: '地图', path: 'Map', img: './static/images/txl.png', img_active: './static/images/txl-active.png'},
+        {text: '订单', path: 'OrderList', img: './static/images/wd.png', img_active: './static/images/wd-active.png'}
       ],
       changeBlue: 0,
       noPermitInRole: ''
