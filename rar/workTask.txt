@@ -1,0 +1,61 @@
+一：node.js框架、vue.js框架、MongoDB数据库、restful接口规范；
+二：WebStorm工具、SublimeText工具
+
+
+星期三2016-05-16 
+1.配置node.js.
+2.学习命令行创建vue项目，使用WebStorm工具运行从github上下载vue项目并在本地编译运行。
+3.学习vue.js框架，
+
+星期四2016-05-17
+1.学习node.js框架。
+2.学习使用SublimeText工具编辑nodejs
+3.学习RESTful接口规范。
+
+星期五2018-05-18
+1.RESTful在nodejs中的简单运用开发接口。
+2.学习MongoDB数据库。
+3.完成RESTful风格的接口demo，并发布nodejs程序。
+
+星期一2018-05-21
+1.开发一套OA系统登录功能需求的demo。
+
+星期二2018-05-22
+1.开发一套OA系统登录功能需求的demo。
+
+
+遇到问题：
+1.node发布接口不成功，解决：查阅各种demo分析解决
+2.vue项目配置不成功，解决：使用webstorm,webpack构建解决
+3.restful接口不成功，解决：寻找各种demo，分析原因解决
+
+1.node操作mongodb数据库无法成功，解决：使用monogoose插件
+2.vue访问接口无法成功，解决：使用代理，（也可以使用nodejs未尝试）
+-------------------------------------------------------------------------
+Vue.js 提供一个官方命令行工具，可用于快速搭建大型单页应用。
+# 创建一个基于 webpack 模板的新项目
+$ vue init webpack my-project
+
+
+进入项目，安装并运行：
+$ cd my-project
+$ cnpm install
+$ cnpm run dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
